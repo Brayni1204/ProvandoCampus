@@ -1,5 +1,5 @@
 <?php
-const base_url = "http://localhost/CampusProyectoPlataforma/";
+const base_url = "http://localhost/CampusProvando--Proyecto/";
 
 const host = "localhost";
 const user = "root";
