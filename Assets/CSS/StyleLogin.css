@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: Nunito;
+    box-sizing: border-box;
+}
+
+
+.content--body{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-login{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container-presentacion-login{
+    padding-block: 50px;
+}
+
+.container-presentacion-login h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.container-img-logo{
+    width: 350px;
+    margin-top: 100px;
+}
+
+.container-img-logo img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.container-info-login{
+    padding-block: 50px;
+}
+
+.container-form-login{
+    border-radius: 10px;
+    background-color: black;
+    padding: 20px;
+    width: 400px;
+}
+
+.container-header-title{
+    display: flex;
+    gap: 5px;
+}
+
+.container-header-title div{
+    background-color: #255D09;
+    padding: 15px;
+}
+
+
+.container-header-title div:nth-child(2){
+    background-color: #CFCC26;
+}
+
+.container-header-title div span{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.container-header-proyect{
+    margin-top: 10px;
+}
+
+.container-header-proyect span{
+    color: #FFF;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.group-form{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.group-form label{
+    color: #FFF;
+}
+
+.group-form input,
+.group-form select
+{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input[type='submit']{
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #255D09;
+    cursor: pointer;
+}
+
+.container-input{
+    position: relative;
+}
+
+.icon-input{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+
+.icon-input i{
+    color: #000;
+    font-size: 1.1rem;
+}
+
+.alerta {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #ebff00;
+}
