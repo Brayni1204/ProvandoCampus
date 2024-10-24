@@ -1,5 +1,5 @@
 <?php
-const base_url = "http://localhost/CampusProvando--Proyecto/";
+const base_url = "https://brayni1204.github.io/ProvandoCampus/";
 
 const host = "localhost";
 const user = "root";
